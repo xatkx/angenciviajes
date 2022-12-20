@@ -1,0 +1,11 @@
+.row.testimoniales
+
+            each dato in msjTestimonial
+
+                .col-md-6.col-lg-4.mb-4 
+                    .card 
+                        .card-body 
+                            blockquote.blockquote 
+                                p.mb-0 | #{dato.mensaje}
+
+                                footer.blockquote-footer.px-2 #{dato.nombre}

@@ -1,0 +1,15 @@
+extends ./layout/index
+
+block content 
+
+    main.container.mt-4
+    
+        h1.text-center.mb-5 #{titulo}
+        h2.text-center.mb-5 #{one.titulo}
+        .row 
+            .col-md-6
+                img.img-fluid(src=`/img/destinos_${one.imagen}_ln.jpg`) 
+            .col-md-6
+                p #{one.descripcion}
+
+    

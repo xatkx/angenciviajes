@@ -1,0 +1,35 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de janeiro 
+        em aventura
+
+block content 
+    
+    main.container.mt-5
+        h2.text-center Sobre nosotros 
+        .row.mb-5
+            .col-md-6
+                p ipsum, dolor sit amet consectetur adipisicing elit. Ut sit error nobis excepturi tempora animi amet architecto? Magnam recusandae impedit tenetur quibusdam? Facilis, magnam minima nihil placeat amet cupiditate error.
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia culpa labore dolorem eos, praesentium tempore aliquid odio accusamus deserunt! Sequi, suscipit deserunt! Voluptatem nisi tenetur est, aspernatur consequatur soluta debitis.
+            .col-md-6
+                img.img-fluid( src=`/img/inicio_nosotros.jpg`)
+
+
+
+        include ./layout/includes_viajes
+
+    .descuento.my-5
+        .container
+            .row 
+                .col-md-6
+                    .contenido
+                        h1 descuentos 20%
+                        p.titulo viaje matrimonial 
+                        p.fecha 20-349-388
+                        p.precio $ 5948543
+
+    .container 
+        h2.text-center Testimoniales
+        include ./layout/include_testimonial
