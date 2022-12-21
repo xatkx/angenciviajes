@@ -49,7 +49,7 @@ app.use(router)
 // view engine
 app.set('view engine', 'pug'); // motor de platillas
 
-
+// es un comentario
 
 app.listen(port, host,() => {
     console.log(`listening in host: ${host} in port: ${port}`)
